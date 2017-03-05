@@ -1,4 +1,4 @@
 function saludar(){
-	console.log("Adios mundo");
+	document.getElementById("saludo").innerHTML = "Adios mundo";
 };
 saludar();
